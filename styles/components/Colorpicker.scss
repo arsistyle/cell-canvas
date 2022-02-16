@@ -1,0 +1,15 @@
+.colorpicker {
+  position: relative;
+  &__item {
+    width: 30px;
+    height: 30px;
+  }
+  &__bg {
+    position: fixed;
+    inset: 0;
+  }
+  &__picker {
+    position: absolute;
+    top: 100%;
+  }
+}

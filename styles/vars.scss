@@ -1,0 +1,6 @@
+:root {
+  --scheme-color: #fff;
+  @media (prefers-color-scheme: dark) {
+    // --scheme-color: #222;
+  }
+}
